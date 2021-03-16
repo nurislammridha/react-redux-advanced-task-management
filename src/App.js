@@ -10,6 +10,7 @@ import TaskEditPage from "./views/TaskEditPage";
 import TaskListPage from "./views/TaskListPage";
 
 export default function App(props) {
+  console.log('object :>> ');
   return (
     <Router>
       <Switch>
